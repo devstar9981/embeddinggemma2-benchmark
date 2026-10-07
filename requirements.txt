@@ -1,0 +1,6 @@
+torch==2.14.1
+transformers==5.19.0
+sentence-transformers==6.1.0
+datasets
+psutil
+numpy

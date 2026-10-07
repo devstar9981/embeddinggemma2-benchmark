@@ -1,0 +1,35 @@
+{
+  "model": {
+    "id": "google/embeddinggemma-2",
+    "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+    "dir": "embeddinggemma-2",
+    "label": "EmbeddingGemma 2, text only (270M)",
+    "kwargs": {
+      "config_kwargs": {
+        "vision_config": null,
+        "audio_config": null
+      }
+    }
+  },
+  "environment": {
+    "cpu": "Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz",
+    "threads": 8,
+    "python": "3.12.10",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.19.0",
+    "sentence_transformers": "6.1.0",
+    "max_seq_length": 1024
+  },
+  "parameters_millions": 271.0,
+  "load_seconds": 36.2,
+  "rss_model_mb": 1528,
+  "rss_after_encoding_mb": 1983,
+  "peak_working_set_mb": 3366,
+  "query_latency_ms": {
+    "median": 80.1,
+    "p95": 103.1,
+    "queries": 200
+  },
+  "docs_per_second": 4.9,
+  "docs": 512
+}

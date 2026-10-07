@@ -1,0 +1,30 @@
+{
+  "model": {
+    "id": "unsloth/embeddinggemma-300m",
+    "revision": "bfa3c846ac738e62aa61806ef9112d34acb1dc5a",
+    "dir": "embeddinggemma-300m",
+    "label": "EmbeddingGemma (300M)",
+    "kwargs": {}
+  },
+  "environment": {
+    "cpu": "Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz",
+    "threads": 8,
+    "python": "3.12.10",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.19.0",
+    "sentence_transformers": "6.1.0",
+    "max_seq_length": 1024
+  },
+  "parameters_millions": 307.6,
+  "load_seconds": 14.9,
+  "rss_model_mb": 1671,
+  "rss_after_encoding_mb": 2046,
+  "peak_working_set_mb": 2830,
+  "query_latency_ms": {
+    "median": 71.9,
+    "p95": 96.2,
+    "queries": 200
+  },
+  "docs_per_second": 8.0,
+  "docs": 512
+}
